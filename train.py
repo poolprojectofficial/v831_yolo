@@ -196,7 +196,7 @@ def train():
     
     print('Training model on:', dataset.name)
     print('The dataset size:', len(dataset))
-    print('The image size:', len(train_size))
+    print('The image size:', args.size)
     print("----------------------------------------------------------")
 
     # dataloader
